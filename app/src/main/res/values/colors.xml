@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="pressedBackground">#c3c2c8</color>
+    <color name="primaryText">#0f0f0f</color>
+    <color name="primarySuggestions">#b6b5b9</color>
+    <color name="primaryBackground">#f3f2f8</color>
+
+    <color name="pressedBackgroundDark">#252525</color>
+    <color name="primaryTextDark">#d7d7e0</color>
+    <color name="primarySuggestionsDark">#292929</color>
+    <color name="primaryBackgroundDark">#3A3A3A</color>
+</resources>

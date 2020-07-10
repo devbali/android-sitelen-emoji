@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:id="@+id/settings"
+        android:key="enable"
+        android:title="Enable Keyboard"
+        android:summary="This will take you to your phone's settings where you can enable the Sitelen Emoji keyboard"/>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Dark Mode"
+        android:key="darkmode"
+        android:summary="Turn this on and restart the keyboard for the Dark Theme" />
+
+</PreferenceScreen>
