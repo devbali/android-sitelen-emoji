@@ -49,23 +49,6 @@ class SitelenEmojiKeyboard : InputMethodService() {
 
     val alphs = arrayOf('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
     var upperalphs : ArrayList<Char> = ArrayList()
-    val words = arrayOf("mi","li","e","toki","pona","ni","a","la","ala","sina","lon","jan","tawa","pi","sona","tenpo",
-    "ona","wile","mute","taso","o","kama","ken","pilin","nimi","ike","lili","tan","tomo","pali","ma",
-    "sitelen","kepeken","musi","jo","moku","lukin","sama","telo","lape","seme","kin","ilo","ale","pini",
-    "ante","suli","ijo","anu","nasa","kulupu","suno","pana","kalama","lipu","tu","nasin","sin","pakala",
-    "en","wawa","olin","lawa","awen","sewi","seli","kon","soweli","weka","mu","wan","ali","lete","sike",
-    "nanpa","kasi","moli","kute","suwi","utala","pimeja","mama","sijelo","pan","luka","uta","open","ko",
-    "jaki","kala","pu","insa","esun","kili","poka","mani","len","linja","meli","kiwen","poki","supa",
-    "kule","mije","waso","walo","pipi","palisa","anpa","noka","akesi","loje","mun","nena","unpa",
-    "sinpin","selo","monsi","jelo","monsuta","laso","oko","alasa","lupa","majuna","kipisi","leko",
-    "namako","apeja","powe","pake","tonsi")
-    val emojis = arrayOf("👈","▶️","⏩️","🗣","👍","👇","❗️","🔼","❌","👉","📍","👤","↪️","⏹️","🧠","⏰️","👆","💭",
-    "👐","🤔","👋","🚶","💪","❤️","💬","👎","🐭","↩️","🏠","✊️","🏝","🖼","🔧","😃","👜","🍽","👀","⚖️",
-    "💧","😴","❓️","❕","⚙️","♾️","🏁","🔀","🐘","🐚","☯️","🌀","👥","☀️","📤","🔈","📄","✌️","🛣","🎁",
-    "💥","➕️","⚡️","💕","😶","⚓️","⬆️","🔥","💨","🐒","🛫","😹","☝️","♾️","❄️","⭕️","#️⃣","🌴","💀","👂",
-    "🍭","⚔️","⚫️","👪","🏋️","🍞","✋️","👄","🔓","🍦","💩","🐟","📖","⏺️","🛒","🍎","↔️","💰","👕","〰️",
-    "👧","💎","📦","🛏","🌈","👨","🦅","⚪️","🐞","📏","⬇️","🦵","🦎","🔴","🌙","🗻","🍆","➡️","🔲","⬅️",
-    "💛","👹","🔵","👁️","🏹","🕳","👵","✂️","🧱","🧂","😢","🧞","🚧","♐")
     val horizontals : Array<Array<Char>> = arrayOf(arrayOf('s'),arrayOf('n'),emptyArray(),arrayOf('s'),arrayOf('w'),
         emptyArray(),emptyArray(),arrayOf('j'),arrayOf('u','o'),arrayOf('k'),arrayOf('l','j'),arrayOf('k'),
         arrayOf('n'),arrayOf('m'),arrayOf('p','i'),arrayOf('o'),arrayOf('w'),arrayOf('e','t'),arrayOf('a'),emptyArray(),
@@ -73,42 +56,11 @@ class SitelenEmojiKeyboard : InputMethodService() {
     val allalphs = arrayOf('a','e','i','o','u','n','w','t','p','s','j','k','l','m')
     val vowels = arrayOf('a','e','i','o','u')
     val consonants = arrayOf('w','t','p','s','j','k','l','m')
-    val places = arrayOf("akanisan","olan","sipe","sasali","amewikansamowa","antola","ankola","anwila","antasika",
-    "ansika","alensina","aja","alupa","asenson","oselija","esalasi","asepasan","pawama","palani","panla","papeto",
-    "pelalusi","pesije","pelis","penen","pemuta","tukika","polipa","posan","posuwana","pupetoja","pasila","pijot",
-    "pisinalan","pune","pokasi","pukinapaso","upulunsi","kanpusi","kamelun","kanata","kanalija","kapupesi",
-    "kalibinetelan","kesimen","santapiken","sejuta","sate","sile","sonko","kilima","kipeton","koko","kolonpa","komo",
-    "jakonko","konko","kukialani","kosalika","kosiwa","lowasi","kupa","kulusu","kiposi","seki","tansi","tekokasija",
-    "sipusi","tomini","tominika","ekato","masu","sapato","kinejekatolija","eliteja","esi","sawasi","isijopija","elopa",
-    "pokan","foja","pisi","sumi","kanse","kijan","polinesi","telota","kapon","kanpija","katelo","tosi","kana","sipata",
-    "elena","kalalinuna","kenata","watalu","wan","katemala","kensi","kine","kinepisa","kajan","awisi","imi","ontula",
-    "onkon","mosijo","isilan","palata","intonesija","ilan","ilakija","alan","manin","isale","italija","sameka","nijon",
-    "jesi","utun","kasatan","kenja","kilipasi","kosopa","kuwasi","kikitan","laju","lawi","lunpan","lesoto","lapewija",
-    "lipija","lisensan","lijatuwa","lusepu","omun","maketonija","malakasi","malawi","malasija","sipeji","mali","mata",
-    "maje","masini","mulitanija","mowisi","majo","mesiko","makonise","motowa","monako","monkolu","sinakola","monsale",
-    "malipe","mosanpi","mijama","namipija","nawelo","nepa","netelan","nupekaletoni","nusilan","nikalawa","nise",
-    "naselija","niwe","nopo","pukoson","majana","nosiki","uman","pakisan","pela","pilisin","panama","papuwanijukini",
-    "palakawi","pelu","pilipina","piken","posuka","potuke","puwetoliko","kita","lajenon","lomani","losi","luwanta",
-    "samowa","samalino","santume","sawusi","seneka","sopisi","sese","sijelalijon","sinkapo","sinmaten","lowenki",
-    "lowensina","solomon","somalija","setapika","sajoja","anku","sasutan","epanja","lanka","sepatelemi","sateline",
-    "sankinipi","senlusi","sematan","sepemiko","kenedin","sutan","siliname","sepapa","wensa","suwasi","sulija","tawan",
-    "tojikiton","tansanija","tawi","simololosa","toko","tokela","tona","sinita","siten","tunisi","tuki","temenitan",
-    "tekeko","tuwalu","mewikalan","pijenalan","ukanta","ukawina","alimala","juke","mewika","ulukawi","opekiton",
-    "wanuwatu","wasikano","penesuwela","wije","upemoputuna","asala","jamanija","sanpija","sinpapuwe","inli","sukosi",
-    "kinla","katala","esuka","peson","kusala","kuli","po","amelika","apika","asija","osejanija")
-    val placemojis = arrayOf("🇦🇫","🇦🇽","🇦🇱","🇩🇿","🇦🇸","🇦🇩","🇦🇴","🇦🇮","🇦🇶","🇦🇬","🇦🇷","🇦🇲","🇦🇼","🇦🇨","🇦🇺","🇦🇹","🇦🇿",
-    "🇧🇸","🇧🇭","🇧🇩","🇧🇧","🇧🇾","🇧🇪","🇧🇿","🇧🇯","🇧🇲","🇧🇹","🇧🇴","🇧🇦","🇧🇼","🇧🇻","🇧🇷","🇮🇴","🇻🇬","🇧🇳","🇧🇬","🇧🇫","🇧🇮","🇰🇭",
-    "🇨🇲","🇨🇦","🇮🇨","🇨🇻","🇧🇶","🇰🇾","🇨🇫","🇪🇦","🇹🇩","🇨🇱","🇨🇳","🇨🇽","🇨🇵","🇨🇨","🇨🇴","🇰🇲","🇨🇬","🇨🇩","🇨🇰","🇨🇷","🇨🇮","🇭🇷",
-    "🇨🇺","🇨🇼","🇨🇾","🇨🇿","🇩🇰","🇩🇬","🇩🇯","🇩🇲","🇩🇴","🇪🇨","🇪🇬","🇸🇻","🇬🇶","🇪🇷","🇪🇪","🇸🇿","🇪🇹","🇪🇺","🇫🇰","🇫🇴","🇫🇯","🇫🇮",
-    "🇫🇷","🇬🇫","🇵🇫","🇹🇫","🇬🇦","🇬🇲","🇬🇪","🇩🇪","🇬🇭","🇬🇮","🇬🇷","🇬🇱","🇬🇩","🇬🇵","🇬🇺","🇬🇹","🇬🇬","🇬🇳","🇬🇼","🇬🇾","🇭🇹","🇭🇲",
-    "🇭🇳","🇭🇰","🇭🇺","🇮🇸","🇮🇳","🇮🇩","🇮🇷","🇮🇶","🇮🇪","🇮🇲","🇮🇱","🇮🇹","🇯🇲","🇯🇵","🇯🇪","🇯🇴","🇰🇿","🇰🇪","🇰🇮","🇽🇰","🇰🇼","🇰🇬",
-    "🇱🇦","🇱🇻","🇱🇧","🇱🇸","🇱🇷","🇱🇾","🇱🇮","🇱🇹","🇱🇺","🇲🇴","🇲🇰","🇲🇬","🇲🇼","🇲🇾","🇲🇻","🇲🇱","🇲🇹","🇲🇭","🇲🇶","🇲🇷","🇲🇺","🇾🇹",
-    "🇲🇽","🇫🇲","🇲🇩","🇲🇨","🇲🇳","🇲🇪","🇲🇸","🇲🇦","🇲🇿","🇲🇲","🇳🇦","🇳🇷","🇳🇵","🇳🇱","🇳🇨","🇳🇿","🇳🇮","🇳🇪","🇳🇬","🇳🇺","🇳🇫","🇰🇵",
-    "🇲🇵","🇳🇴","🇴🇲","🇵🇰","🇵🇼","🇵🇸","🇵🇦","🇵🇬","🇵🇾","🇵🇪","🇵🇭","🇵🇳","🇵🇱","🇵🇹","🇵🇷","🇶🇦","🇷🇪","🇷🇴","🇷🇺","🇷🇼","🇼🇸","🇸🇲",
-    "🇸🇹","🇸🇦","🇸🇳","🇷🇸","🇸🇨","🇸🇱","🇸🇬","🇸🇽","🇸🇰","🇸🇮","🇸🇧","🇸🇴","🇿🇦","🇬🇸","🇰🇷","🇸🇸","🇪🇸","🇱🇰","🇧🇱","🇸🇭","🇰🇳","🇱🇨",
-    "🇲🇫","🇵🇲","🇻🇨","🇸🇩","🇸🇷","🇸🇯","🇸🇪","🇨🇭","🇸🇾","🇹🇼","🇹🇯","🇹🇿","🇹🇭","🇹🇱","🇹🇬","🇹🇰","🇹🇴","🇹🇹","🇹🇦","🇹🇳","🇹🇷","🇹🇲",
-    "🇹🇨","🇹🇻","🇺🇲","🇻🇮","🇺🇬","🇺🇦","🇦🇪","🇬🇧","🇺🇸","🇺🇾","🇺🇿","🇻🇺","🇻🇦","🇻🇪","🇻🇳","🇼🇫","🇪🇭","🇾🇪","🇿🇲","🇿🇼","🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "🏴󠁧󠁢󠁷󠁬󠁳󠁿","🏴󠁥󠁳󠁣󠁴󠁿","🏴󠁥󠁳󠁰󠁶󠁿","🏴󠁦󠁲󠁢󠁲󠁥󠁿","🏴󠁩󠁮󠁧󠁪󠁿","🏴󠁩󠁲󠀱󠀶󠁿","🏴󠁣󠁮󠀵󠀴󠁿","🌎","🌍","🌏","🌊")
+
+    lateinit var words : Array<String>
+    lateinit var emojis : Array<String>
+    lateinit var places : Array<String>
+    lateinit var placemojis : Array<String>
 
     private fun addText (text:CharSequence) {
         val input = currentInputConnection
@@ -131,6 +83,23 @@ class SitelenEmojiKeyboard : InputMethodService() {
 
         this.capsobj = CapsPress(alphabets)
         suggestions = arrayOf(view.suggestion1,view.suggestion2,view.suggestion3)
+
+        val prefs = PreferenceManager.getDefaultSharedPreferences(this)
+        val choice = prefs.getString("emojiset", "default")
+
+        if (choice == "default") {
+            words = resources.getStringArray(array.default_words)
+            emojis = resources.getStringArray(array.default_emojis)
+        } else if (choice == "pu-only") {
+            words = resources.getStringArray(array.pu_words)
+            emojis = resources.getStringArray(array.pu_emojis)
+        } else { // Nimi ale pona
+            words = resources.getStringArray(array.default_words) + resources.getStringArray(array.nap_words)
+            emojis = resources.getStringArray(array.default_emojis) + resources.getStringArray(array.nap_emojis)
+        }
+
+        places = resources.getStringArray(array.place_names)
+        placemojis = resources.getStringArray(array.place_emojis)
 
         for (b in alphabets) {
             b.setOnClickListener {

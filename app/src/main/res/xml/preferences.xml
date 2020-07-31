@@ -12,4 +12,14 @@
         android:key="darkmode"
         android:summary="Turn this on and restart the keyboard for the Dark Theme" />
 
+    <ListPreference
+        android:id="@+id/emojiset"
+        android:defaultValue="default"
+        android:entries="@array/emojisetchoice"
+        android:entryValues="@array/emojisetchoicevalues"
+        android:key="emojiset"
+        android:title="Emoji Set"
+        android:summary="This is the set of Emojis that will be suggested"
+        />
+
 </PreferenceScreen>
