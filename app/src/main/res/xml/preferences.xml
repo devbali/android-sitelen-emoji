@@ -3,8 +3,8 @@
     <Preference
         android:id="@+id/settings"
         android:key="enable"
-        android:title="Enable Keyboard"
-        android:summary="This will take you to your phone's settings where you can enable the Sitelen Emoji keyboard"/>
+        android:title="Enable Sitelen Emoji Keyboard(s)"
+        android:summary="This will take you to your phone's settings where you can enable the Sitelen Emoji keyboards for Toki Pona and/or Toki Ma"/>
 
     <SwitchPreference
         android:defaultValue="false"

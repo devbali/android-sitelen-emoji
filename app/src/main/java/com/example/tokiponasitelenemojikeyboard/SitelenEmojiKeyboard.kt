@@ -38,7 +38,7 @@ class CapsPress : View.OnClickListener {
     }
 
 }
-class SitelenEmojiKeyboard : InputMethodService() {
+abstract class SitelenEmojiKeyboard : InputMethodService() {
 //    var suggestions :  Array<TextView> = TODO()
     private lateinit var capsobj : CapsPress
     private lateinit var view: View
@@ -69,6 +69,8 @@ class SitelenEmojiKeyboard : InputMethodService() {
         am.playSoundEffect(AudioManager.FX_KEY_CLICK)
     }
 
+    abstract fun initWords()
+
     override fun onCreateInputView(): View {
 
         view = layoutInflater.inflate(layout.keyboard, null)
@@ -83,23 +85,7 @@ class SitelenEmojiKeyboard : InputMethodService() {
 
         this.capsobj = CapsPress(alphabets)
         suggestions = arrayOf(view.suggestion1,view.suggestion2,view.suggestion3)
-
-        val prefs = PreferenceManager.getDefaultSharedPreferences(this)
-        val choice = prefs.getString("emojiset", "default")
-
-        if (choice == "default") {
-            words = resources.getStringArray(array.default_words)
-            emojis = resources.getStringArray(array.default_emojis)
-        } else if (choice == "pu-only") {
-            words = resources.getStringArray(array.pu_words)
-            emojis = resources.getStringArray(array.pu_emojis)
-        } else { // Nimi ale pona
-            words = resources.getStringArray(array.default_words) + resources.getStringArray(array.nap_words)
-            emojis = resources.getStringArray(array.default_emojis) + resources.getStringArray(array.nap_emojis)
-        }
-
-        places = resources.getStringArray(array.place_names)
-        placemojis = resources.getStringArray(array.place_emojis)
+        initWords()
 
         for (b in alphabets) {
             b.setOnClickListener {
@@ -289,5 +275,35 @@ class SitelenEmojiKeyboard : InputMethodService() {
             return true
         }
         return false
+    }
+}
+
+class TokiPonaSitelenEmojiKeyboard : SitelenEmojiKeyboard() {
+    override fun initWords () {
+        val prefs = PreferenceManager.getDefaultSharedPreferences(this)
+        val choice = prefs.getString("emojiset", "default")
+
+        if (choice == "default") {
+            words = resources.getStringArray(array.default_words)
+            emojis = resources.getStringArray(array.default_emojis)
+        } else if (choice == "pu-only") {
+            words = resources.getStringArray(array.pu_words)
+            emojis = resources.getStringArray(array.pu_emojis)
+        } else { // Nimi ale pona
+            words = resources.getStringArray(array.default_words) + resources.getStringArray(array.nap_words)
+            emojis = resources.getStringArray(array.default_emojis) + resources.getStringArray(array.nap_emojis)
+        }
+
+        places = resources.getStringArray(array.place_names)
+        placemojis = resources.getStringArray(array.place_emojis)
+    }
+}
+
+class TokiMaSitelenEmojiKeyboard : SitelenEmojiKeyboard() {
+    override fun initWords() {
+        words = resources.getStringArray(array.tm_words)
+        emojis = resources.getStringArray(array.tm_emojis)
+        places = resources.getStringArray(array.tm_placewords)
+        placemojis = resources.getStringArray(array.tm_placeemojis)
     }
 }

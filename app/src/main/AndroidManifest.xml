@@ -22,8 +22,22 @@
         </activity>
 
         <service
-            android:name=".SitelenEmojiKeyboard"
-            android:permission="android.permission.BIND_INPUT_METHOD">
+            android:name=".TokiPonaSitelenEmojiKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:label="Toki Pona Sitelen Emoji">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <service
+            android:name=".TokiMaSitelenEmojiKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:label="Toki Ma Sitelen Emoji">
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
