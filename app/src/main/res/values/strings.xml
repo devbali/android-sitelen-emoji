@@ -41,6 +41,7 @@
         <item>toki</item>
         <item>pona</item>
         <item>ni</item>
+        <item>a</item>
         <item>la</item>
         <item>ala</item>
         <item>sina</item>
@@ -156,13 +157,14 @@
         <item>lupa</item>
     </string-array>
 
-    <string-array name="pu_emojis">
+    <string-array name = "pu_emojis">
         <item>👈</item>
         <item>▶️</item>
         <item>⏩</item>
-        <item>🗣</item>
+        <item>🗣️</item>
         <item>👍</item>
         <item>👇</item>
+        <item>❗</item>
         <item>🔼</item>
         <item>❌</item>
         <item>👉</item>
@@ -186,12 +188,12 @@
         <item>↩️</item>
         <item>🏠</item>
         <item>✊</item>
-        <item>🏝</item>
-        <item>🖼</item>
+        <item>🏝️</item>
+        <item>🖼️</item>
         <item>🔧</item>
         <item>😃</item>
         <item>👜</item>
-        <item>🍽</item>
+        <item>🍽️</item>
         <item>👀</item>
         <item>⚖️</item>
         <item>💧</item>
@@ -211,7 +213,7 @@
         <item>🔈</item>
         <item>📄</item>
         <item>✌️</item>
-        <item>🛣</item>
+        <item>🛣️</item>
         <item>🎁</item>
         <item>💥</item>
         <item>➕</item>
@@ -255,7 +257,7 @@
         <item>👧</item>
         <item>💎</item>
         <item>📦</item>
-        <item>🛏</item>
+        <item>🛏️</item>
         <item>🌈</item>
         <item>👨</item>
         <item>🦅</item>
@@ -275,7 +277,7 @@
         <item>💛</item>
         <item>🔵</item>
         <item>🏹</item>
-        <item>🕳</item>
+        <item>🕳️</item>
     </string-array>
 
     <string-array name="default_words">
@@ -416,11 +418,11 @@
         <item>mulapisu</item>
     </string-array>
 
-    <string-array name="default_emojis">
+    <string-array name = "default_emojis">
         <item>👈</item>
         <item>▶️</item>
         <item>⏩</item>
-        <item>🗣</item>
+        <item>🗣️</item>
         <item>👍</item>
         <item>👇</item>
         <item>❗</item>
@@ -447,12 +449,12 @@
         <item>↩️</item>
         <item>🏠</item>
         <item>✊</item>
-        <item>🏝</item>
-        <item>🖼</item>
+        <item>🏝️</item>
+        <item>🖼️</item>
         <item>🔧</item>
         <item>😃</item>
         <item>👜</item>
-        <item>🍽</item>
+        <item>🍽️</item>
         <item>👀</item>
         <item>⚖️</item>
         <item>💧</item>
@@ -473,7 +475,7 @@
         <item>🔈</item>
         <item>📄</item>
         <item>✌️</item>
-        <item>🛣</item>
+        <item>🛣️</item>
         <item>🎁</item>
         <item>💥</item>
         <item>➕</item>
@@ -518,7 +520,7 @@
         <item>👧</item>
         <item>💎</item>
         <item>📦</item>
-        <item>🛏</item>
+        <item>🛏️</item>
         <item>🌈</item>
         <item>👨</item>
         <item>🦅</item>
@@ -540,7 +542,7 @@
         <item>🔵</item>
         <item>👁️</item>
         <item>🏹</item>
-        <item>🕳</item>
+        <item>🕳️</item>
         <item>👵</item>
         <item>✂️</item>
         <item>🧱</item>
@@ -596,7 +598,7 @@
         <item>wi</item>
     </string-array>
 
-    <string-array name="nap_emojis">
+    <string-array name = "nap_emojis">
         <item>📥</item>
         <item>😎</item>
         <item>🔃</item>
@@ -1190,460 +1192,460 @@
     <!-- TOKI MA -->
 
     <string-array name="tm_words">
+        <item>mi</item>
+        <item>li</item>
+        <item>e</item>
+        <item>toki</item>
+        <item>pona</item>
+        <item>ni</item>
         <item>a</item>
+        <item>la</item>
+        <item>ala</item>
+        <item>sina</item>
+        <item>lon</item>
+        <item>jan</item>
+        <item>tawa</item>
+        <item>pi</item>
+        <item>sona</item>
+        <item>tenpo</item>
+        <item>ona</item>
+        <item>wile</item>
+        <item>mute</item>
+        <item>taso</item>
+        <item>o</item>
+        <item>kama</item>
+        <item>ken</item>
+        <item>pilin</item>
+        <item>nimi</item>
+        <item>ike</item>
+        <item>lili</item>
+        <item>tan</item>
+        <item>tomo</item>
+        <item>pali</item>
+        <item>ma</item>
+        <item>sitelen</item>
+        <item>musi</item>
+        <item>jo</item>
+        <item>moku</item>
+        <item>lukin</item>
+        <item>sama</item>
+        <item>telo</item>
+        <item>lape</item>
+        <item>seme</item>
+        <item>kin</item>
+        <item>ilo</item>
+        <item>pini</item>
+        <item>ante</item>
+        <item>suli</item>
+        <item>ijo</item>
+        <item>anu</item>
+        <item>nasa</item>
+        <item>kulupu</item>
+        <item>suno</item>
+        <item>pana</item>
+        <item>kalama</item>
+        <item>lipu</item>
+        <item>tu</item>
+        <item>nasin</item>
+        <item>sin</item>
+        <item>pakala</item>
+        <item>en</item>
+        <item>wawa</item>
+        <item>olin</item>
+        <item>lawa</item>
+        <item>awen</item>
+        <item>sewi</item>
+        <item>seli</item>
+        <item>kon</item>
+        <item>soweli</item>
+        <item>weka</item>
+        <item>mu</item>
+        <item>wan</item>
+        <item>ali</item>
+        <item>lete</item>
+        <item>sike</item>
+        <item>nanpa</item>
+        <item>kasi</item>
+        <item>moli</item>
+        <item>kute</item>
+        <item>suwi</item>
+        <item>utala</item>
+        <item>pimeja</item>
+        <item>mama</item>
+        <item>sijelo</item>
+        <item>pan</item>
+        <item>luka</item>
+        <item>uta</item>
+        <item>open</item>
+        <item>ko</item>
+        <item>jaki</item>
+        <item>kala</item>
+        <item>pu</item>
+        <item>insa</item>
+        <item>esun</item>
+        <item>kili</item>
+        <item>poka</item>
+        <item>mani</item>
+        <item>len</item>
+        <item>linja</item>
+        <item>meli</item>
+        <item>kiwen</item>
+        <item>poki</item>
+        <item>supa</item>
+        <item>kule</item>
+        <item>mije</item>
+        <item>waso</item>
+        <item>walo</item>
+        <item>pipi</item>
+        <item>palisa</item>
+        <item>anpa</item>
+        <item>noka</item>
+        <item>akesi</item>
+        <item>loje</item>
+        <item>mun</item>
+        <item>nena</item>
+        <item>unpa</item>
+        <item>sinpin</item>
+        <item>selo</item>
+        <item>monsi</item>
+        <item>jelo</item>
+        <item>monsuta</item>
+        <item>laso</item>
+        <item>alasa</item>
+        <item>lupa</item>
+        <item>majuna</item>
+        <item>kipisi</item>
+        <item>leko</item>
+        <item>namako</item>
+        <item>apeja</item>
+        <item>powe</item>
+        <item>pake</item>
+        <item>tonsi</item>
         <item>aja</item>
         <item>ajuta</item>
-        <item>akesi</item>
-        <item>ala</item>
-        <item>alasa</item>
         <item>alen</item>
-        <item>ali</item>
-        <item>anpa</item>
-        <item>ante</item>
-        <item>anu</item>
-        <item>apeja</item>
-        <item>awen</item>
-        <item>e</item>
-        <item>en</item>
         <item>enujo</item>
         <item>epi</item>
-        <item>esun</item>
         <item>ewin</item>
-        <item>ijo</item>
-        <item>ike</item>
-        <item>ilo</item>
         <item>in</item>
         <item>inkatan</item>
-        <item>insa</item>
         <item>intawo</item>
         <item>ita</item>
-        <item>jaki</item>
-        <item>jan</item>
         <item>jasima</item>
         <item>jatila</item>
-        <item>jelo</item>
-        <item>jo</item>
         <item>jun</item>
         <item>juna</item>
         <item>jupa</item>
-        <item>kala</item>
-        <item>kalama</item>
         <item>kali</item>
         <item>kalite</item>
-        <item>kama</item>
         <item>kan</item>
         <item>kanti</item>
         <item>kapesi</item>
-        <item>kasi</item>
-        <item>ken</item>
         <item>kenta</item>
         <item>ki</item>
-        <item>kili</item>
         <item>kilo</item>
-        <item>kin</item>
-        <item>kipisi</item>
-        <item>kiwen</item>
-        <item>ko</item>
         <item>koli</item>
         <item>koma</item>
-        <item>kon</item>
-        <item>kule</item>
-        <item>kulupu</item>
-        <item>kute</item>
-        <item>la</item>
         <item>lajo</item>
         <item>lakima</item>
         <item>lamo</item>
         <item>lanpan</item>
         <item>lansan</item>
-        <item>lape</item>
-        <item>laso</item>
-        <item>lawa</item>
         <item>le</item>
         <item>leje</item>
-        <item>leko</item>
-        <item>len</item>
         <item>lentu</item>
-        <item>lete</item>
-        <item>li</item>
         <item>liko</item>
-        <item>lili</item>
-        <item>linja</item>
-        <item>lipu</item>
         <item>liso</item>
         <item>lita</item>
-        <item>loje</item>
-        <item>lon</item>
-        <item>luka</item>
-        <item>lukin</item>
-        <item>lupa</item>
-        <item>ma</item>
-        <item>majuna</item>
-        <item>mama</item>
-        <item>mani</item>
-        <item>meli</item>
         <item>meta</item>
-        <item>mi</item>
-        <item>mije</item>
         <item>mijon</item>
         <item>mila</item>
         <item>mina</item>
         <item>minuto</item>
-        <item>moku</item>
-        <item>moli</item>
-        <item>monsi</item>
-        <item>monsuta</item>
-        <item>mu</item>
-        <item>mun</item>
-        <item>musi</item>
-        <item>mute</item>
         <item>na</item>
         <item>nalama</item>
-        <item>namako</item>
-        <item>nanpa</item>
-        <item>nasa</item>
-        <item>nasin</item>
-        <item>nena</item>
         <item>nesi</item>
-        <item>ni</item>
-        <item>nimi</item>
-        <item>noka</item>
         <item>note</item>
-        <item>o</item>
         <item>oke</item>
         <item>olente</item>
-        <item>olin</item>
         <item>oliwa</item>
         <item>on</item>
-        <item>ona</item>
         <item>onta</item>
-        <item>open</item>
         <item>osa</item>
         <item>ositen</item>
         <item>pajan</item>
-        <item>pakala</item>
-        <item>pake</item>
         <item>palanta</item>
-        <item>pali</item>
-        <item>palisa</item>
-        <item>pan</item>
-        <item>pana</item>
         <item>panu</item>
         <item>pasila</item>
         <item>pata</item>
         <item>peko</item>
         <item>pesoni</item>
         <item>peta</item>
-        <item>pi</item>
-        <item>pilin</item>
-        <item>pimeja</item>
-        <item>pini</item>
-        <item>pipi</item>
         <item>po</item>
-        <item>poka</item>
-        <item>poki</item>
-        <item>pona</item>
-        <item>powe</item>
-        <item>pu</item>
         <item>pume</item>
-        <item>sama</item>
         <item>san</item>
         <item>sanke</item>
         <item>sano</item>
         <item>se</item>
         <item>sekunte</item>
-        <item>seli</item>
-        <item>selo</item>
-        <item>seme</item>
         <item>senli</item>
-        <item>sewi</item>
         <item>si</item>
-        <item>sijelo</item>
-        <item>sike</item>
-        <item>sin</item>
-        <item>sina</item>
-        <item>sinpin</item>
-        <item>sitelen</item>
         <item>siten</item>
         <item>soko</item>
-        <item>sona</item>
         <item>soto</item>
-        <item>soweli</item>
-        <item>suli</item>
-        <item>suno</item>
-        <item>supa</item>
         <item>supi</item>
         <item>sute</item>
-        <item>suwi</item>
         <item>talika</item>
         <item>talili</item>
-        <item>tan</item>
         <item>tana</item>
         <item>tanse</item>
-        <item>taso</item>
         <item>tata</item>
-        <item>tawa</item>
         <item>te</item>
-        <item>telo</item>
         <item>ten</item>
-        <item>tenpo</item>
         <item>tima</item>
         <item>titi</item>
         <item>tiwata</item>
-        <item>toki</item>
         <item>tolu</item>
-        <item>tomo</item>
-        <item>tonsi</item>
-        <item>tu</item>
         <item>tuntin</item>
         <item>ulokan</item>
         <item>ulun</item>
         <item>umami</item>
         <item>umi</item>
         <item>umojo</item>
-        <item>unpa</item>
-        <item>uta</item>
-        <item>utala</item>
         <item>wa</item>
         <item>waleja</item>
-        <item>walo</item>
-        <item>wan</item>
-        <item>waso</item>
-        <item>wawa</item>
         <item>wawasa</item>
-        <item>weka</item>
         <item>wetu</item>
         <item>wiki</item>
-        <item>wile</item>
         <item>woka</item>
     </string-array>
 
     <string-array name = "tm_emojis">
+        <item>👈</item>
+        <item>▶️</item>
+        <item>⏩</item>
+        <item>🗣️</item>
+        <item>👍</item>
+        <item>👇</item>
         <item>❗</item>
+        <item>🔼</item>
+        <item>❌</item>
+        <item>👉🤙</item>
+        <item>✔️</item>
+        <item>👤</item>
+        <item>🚆</item>
+        <item>⏹️</item>
+        <item>🧠</item>
+        <item>⏰</item>
+        <item>👆🤙</item>
+        <item>💭</item>
+        <item>👐</item>
+        <item>🤔</item>
+        <item>👋</item>
+        <item>🚶</item>
+        <item>💪</item>
+        <item>❤️</item>
+        <item>💬</item>
+        <item>👎</item>
+        <item>🤏</item>
+        <item>↩️</item>
+        <item>🏠</item>
+        <item>✊</item>
+        <item>🌍</item>
+        <item>🖼️</item>
+        <item>😃</item>
+        <item>👜</item>
+        <item>🍽️</item>
+        <item>👀</item>
+        <item>⚖️</item>
+        <item>💧</item>
+        <item>😴</item>
+        <item>❓</item>
+        <item>❕</item>
+        <item>⚙️</item>
+        <item>🏁</item>
+        <item>🔀</item>
+        <item>🐘</item>
+        <item>🐚</item>
+        <item>☯️</item>
+        <item>🌀</item>
+        <item>👥</item>
+        <item>☀️</item>
+        <item>📤</item>
+        <item>🔈</item>
+        <item>📄</item>
+        <item>✌️</item>
+        <item>🛣️</item>
+        <item>🎁</item>
+        <item>💥</item>
+        <item>➕</item>
+        <item>⚡</item>
+        <item>💕</item>
+        <item>😶</item>
+        <item>⚓</item>
+        <item>⬆️</item>
+        <item>🔥</item>
+        <item>💨</item>
+        <item>🐒</item>
+        <item>🛫</item>
+        <item>😹</item>
+        <item>☝️</item>
+        <item>♾️</item>
+        <item>❄️</item>
+        <item>⭕</item>
+        <item>#️⃣</item>
+        <item>🌴</item>
+        <item>💀</item>
+        <item>👂</item>
+        <item>🍭</item>
+        <item>⚔️</item>
+        <item>⚫</item>
+        <item>👪</item>
+        <item>🧍</item>
+        <item>🍞</item>
+        <item>✋</item>
+        <item>👄</item>
+        <item>🔓</item>
+        <item>🍦</item>
+        <item>💩</item>
+        <item>🐟</item>
+        <item>📖</item>
+        <item>⏺️</item>
+        <item>🛒</item>
+        <item>🍎</item>
+        <item>↔️</item>
+        <item>💰</item>
+        <item>👕</item>
+        <item>〰️</item>
+        <item>👧</item>
+        <item>💎</item>
+        <item>📦</item>
+        <item>🛏️</item>
+        <item>🌈</item>
+        <item>👨</item>
+        <item>🦅</item>
+        <item>⚪</item>
+        <item>🐞</item>
+        <item>📏</item>
+        <item>⬇️</item>
+        <item>🦵</item>
+        <item>🦎</item>
+        <item>🔴</item>
+        <item>🌙</item>
+        <item>🗻</item>
+        <item>🍆</item>
+        <item>➡️</item>
+        <item>🔲</item>
+        <item>⬅️</item>
+        <item>🟡</item>
+        <item>👹</item>
+        <item>🔵</item>
+        <item>🏹</item>
+        <item>🕳️</item>
+        <item>👵</item>
+        <item>✂️</item>
+        <item>🧱</item>
+        <item>🧂</item>
+        <item>😔</item>
+        <item>🧞</item>
+        <item>🚧</item>
+        <item>♐</item>
         <item>🧬</item>
         <item>🚨</item>
-        <item>🦎</item>
-        <item>❌</item>
-        <item>🏹</item>
         <item>📈</item>
-        <item>♾️</item>
-        <item>⬇️</item>
-        <item>🔀</item>
-        <item>☯️</item>
-        <item>😔</item>
-        <item>⚓</item>
-        <item>⏩</item>
-        <item>➕</item>
         <item>🥱</item>
         <item>🏋️</item>
-        <item>🛒</item>
         <item>💅</item>
-        <item>🐚</item>
-        <item>👎</item>
-        <item>⚙️</item>
         <item>📍</item>
         <item>📌</item>
-        <item>⏺️</item>
-        <item>🏝</item>
+        <item>🏝️</item>
         <item>🔽</item>
-        <item>💩</item>
-        <item>👤</item>
         <item>👯</item>
         <item>🙅</item>
-        <item>🟡</item>
-        <item>👜</item>
         <item>🦚</item>
         <item>🐣</item>
         <item>🤜</item>
-        <item>🐟</item>
-        <item>🔈</item>
         <item>🚗</item>
         <item>🏷️</item>
-        <item>🚶</item>
         <item>🔗</item>
         <item>🎵</item>
         <item>🟤</item>
-        <item>🌴</item>
-        <item>💪</item>
         <item>💯</item>
         <item>↪️</item>
-        <item>🍎</item>
         <item>🔢🏋️</item>
-        <item>❕</item>
-        <item>✂️</item>
-        <item>💎</item>
-        <item>🍦</item>
         <item>🧶</item>
         <item>🎈</item>
-        <item>💨</item>
-        <item>🌈</item>
-        <item>👥</item>
-        <item>👂</item>
-        <item>🔼</item>
         <item>📰</item>
         <item>😭</item>
         <item>🦒</item>
         <item>📥</item>
         <item>🐢</item>
-        <item>😴</item>
-        <item>🔵</item>
-        <item>😶</item>
         <item>◀️</item>
         <item>📜</item>
-        <item>🧱</item>
-        <item>👕</item>
         <item>🧻</item>
-        <item>❄️</item>
-        <item>▶️</item>
         <item>🍺</item>
-        <item>🤏</item>
-        <item>〰️</item>
-        <item>📄</item>
         <item>🤣</item>
         <item>🔢🐘</item>
-        <item>🔴</item>
-        <item>✔️</item>
-        <item>✋</item>
-        <item>👀</item>
-        <item>🕳</item>
-        <item>🌍</item>
-        <item>👵</item>
-        <item>👪</item>
-        <item>💰</item>
-        <item>👧</item>
         <item>🔢📐</item>
-        <item>👈</item>
-        <item>👨</item>
         <item>⬛</item>
         <item>◻️</item>
         <item>👈🤙</item>
         <item>🔢⏰</item>
-        <item>🍽</item>
-        <item>💀</item>
-        <item>⬅️</item>
-        <item>👹</item>
-        <item>😹</item>
-        <item>🌙</item>
-        <item>😃</item>
-        <item>👐</item>
         <item>🤙</item>
         <item>🧸</item>
-        <item>🧂</item>
-        <item>#️⃣</item>
-        <item>🌀</item>
-        <item>🛣</item>
-        <item>🗻</item>
         <item>🌌</item>
-        <item>👇</item>
-        <item>💬</item>
-        <item>🦵</item>
         <item>🧭⬆️</item>
-        <item>👋</item>
         <item>👌</item>
         <item>🧭➡️</item>
-        <item>💕</item>
         <item>🛢️</item>
         <item>👆</item>
-        <item>👆🤙</item>
         <item>🌊</item>
-        <item>🔓</item>
         <item>🧩</item>
         <item>🧭⬅️</item>
         <item>🏙️</item>
-        <item>💥</item>
-        <item>🚧</item>
         <item>🔢⏰🔺</item>
-        <item>✊</item>
-        <item>📏</item>
-        <item>🍞</item>
-        <item>📤</item>
         <item>🌕</item>
         <item>🙆</item>
         <item>🧑‍🤝‍🧑</item>
         <item>🙏</item>
         <item>🩹</item>
         <item>🟢</item>
-        <item>⏹️</item>
-        <item>❤️</item>
-        <item>⚫</item>
-        <item>🏁</item>
-        <item>🐞</item>
         <item>🖖</item>
-        <item>↔️</item>
-        <item>📦</item>
-        <item>👍</item>
-        <item>🧞</item>
-        <item>📖</item>
         <item>🚬</item>
-        <item>⚖️</item>
         <item>🤟</item>
         <item>🩸</item>
         <item>🐭</item>
         <item>🔄</item>
         <item>🔢⏰🔻</item>
-        <item>🔥</item>
-        <item>🔲</item>
-        <item>❓</item>
         <item>🏆</item>
-        <item>⬆️</item>
         <item>👉</item>
-        <item>🧍</item>
-        <item>⭕</item>
-        <item>🎁</item>
-        <item>👉🤙</item>
-        <item>➡️</item>
-        <item>🖼</item>
         <item>🪑</item>
         <item>🍄</item>
-        <item>🧠</item>
         <item>🤛</item>
-        <item>🐒</item>
-        <item>🐘</item>
-        <item>☀️</item>
-        <item>🛏️</item>
         <item>🦷</item>
         <item>🧭⬇️</item>
-        <item>🍭</item>
         <item>📋</item>
         <item>🧮</item>
-        <item>↩️</item>
         <item>💡</item>
         <item>💃</item>
-        <item>🤔</item>
         <item>🧒</item>
-        <item>🚆</item>
         <item>⏸️</item>
-        <item>💧</item>
         <item>🤲</item>
-        <item>⏰</item>
         <item>🦠</item>
         <item>🤱</item>
         <item>🍸</item>
-        <item>🗣</item>
         <item>🧪</item>
-        <item>🏠</item>
-        <item>♐</item>
-        <item>✌️</item>
         <item>🌧️</item>
         <item>🔨</item>
         <item>📐</item>
         <item>🍖</item>
         <item>🚢</item>
         <item>💊</item>
-        <item>🍆</item>
-        <item>👄</item>
-        <item>⚔️</item>
         <item>🥚</item>
         <item>ℹ️</item>
-        <item>⚪</item>
-        <item>☝️</item>
-        <item>🦅</item>
-        <item>⚡</item>
         <item>🍋</item>
-        <item>🛫</item>
         <item>⭐</item>
         <item>🐇</item>
-        <item>💭</item>
         <item>⏳</item>
     </string-array>
 
@@ -2184,7 +2186,5 @@
         <item>🏴󠁩󠁲󠀱󠀶󠁿</item>
         <item>🏴󠁣󠁮󠀵󠀴󠁿</item>
     </string-array>
-
-
 
 </resources>
