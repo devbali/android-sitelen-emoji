@@ -4,6 +4,8 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.inputmethodservice.InputMethodService
 import android.media.AudioManager
+import android.os.Build
+import android.text.Html
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
@@ -44,6 +46,7 @@ abstract class SitelenEmojiKeyboard : InputMethodService() {
     private lateinit var view: View
     private lateinit  var alphabets : Array<TextView>
     private lateinit var suggestions : Array<TextView>
+    var tokima : Boolean = false
     private var buffer = ""
     private var capsmode = false
 
@@ -87,9 +90,42 @@ abstract class SitelenEmojiKeyboard : InputMethodService() {
         suggestions = arrayOf(view.suggestion1,view.suggestion2,view.suggestion3)
         initWords()
 
+        if (tokima) {
+            val toprow = arrayOf(
+                view.keyP,
+                view.keyQ,
+                view.keyW,
+                view.keyE,
+                view.keyR,
+                view.keyT,
+                view.keyY,
+                view.keyU,
+                view.keyI,
+                view.keyO
+            )
+
+            for (i in toprow.indices) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    toprow[i].text = Html.fromHtml(
+                        toprow[i].text.toString() + " <sup><sup><sup><sup><small><small><small><small>" + i.toString() + "</small></small></small></small></sup></sup></sup></sup>",
+                        Html.TO_HTML_PARAGRAPH_LINES_INDIVIDUAL
+                    )
+                } else {
+                    toprow[i].text =
+                        Html.fromHtml(toprow[i].text.toString() + " <sup><sup><sup><sup><small><small><small><small>" + i.toString() + "</small></small></small></small></sup></sup></sup></sup>")
+                }
+                toprow[i].setOnLongClickListener {
+                    collapseBuffer()
+                    addText(i.toString() + "️⃣")
+                    true
+                }
+            }
+            view.keyColon.text = ","
+        }
+
         for (b in alphabets) {
             b.setOnClickListener {
-                addText(b.text)
+                addText(b.text.substring(0,1))
             }
         }
 
@@ -104,7 +140,8 @@ abstract class SitelenEmojiKeyboard : InputMethodService() {
         }
         view.keyColon.setOnClickListener{
             collapseBuffer()
-            addText("➗️")
+            if (tokima) addText("\uD83D\uDD38")
+            else addText("➗️")
         }
         view.keyName.setOnClickListener{
             collapseBuffer()
@@ -113,7 +150,8 @@ abstract class SitelenEmojiKeyboard : InputMethodService() {
 
         view.keyPeriod.setOnClickListener{
             collapseBuffer()
-            addText("➖️")
+            if (tokima) addText("\uD83D\uDD36")
+            else addText("➖️")
         }
         view.keyNextLine.setOnClickListener{
             collapseBuffer()
@@ -296,6 +334,7 @@ class TokiPonaSitelenEmojiKeyboard : SitelenEmojiKeyboard() {
 
         places = resources.getStringArray(array.place_names)
         placemojis = resources.getStringArray(array.place_emojis)
+        tokima = false
     }
 }
 
@@ -305,5 +344,6 @@ class TokiMaSitelenEmojiKeyboard : SitelenEmojiKeyboard() {
         emojis = resources.getStringArray(array.tm_emojis)
         places = resources.getStringArray(array.tm_placewords)
         placemojis = resources.getStringArray(array.tm_placeemojis)
+        tokima = true
     }
 }
